@@ -429,11 +429,14 @@ export default function Home() {
           <div className="relative mx-auto w-full max-w-[560px]">
             <div className="absolute -inset-8 rounded-full bg-gradient-to-br from-[#f4b942]/30 via-[#c347a6]/20 to-[#7147d9]/30 blur-3xl" />
             <div className="relative aspect-square rounded-[42%_58%_50%_50%/48%_40%_60%_52%] border border-[#f4b942]/35 bg-[#101318]/75 p-4 shadow-[0_24px_90px_rgba(0,0,0,.45)]">
-              <div className="grid h-full place-items-center rounded-[inherit] border border-white/10 bg-[radial-gradient(circle_at_35%_22%,rgba(244,185,66,.3),transparent_24%),linear-gradient(145deg,rgba(16,19,24,.8),rgba(8,10,13,.96))] text-center">
-                <div>
-                  <p className="font-heading text-[clamp(4rem,11vw,7.5rem)] font-black leading-none text-[#f4b942]">JFI</p>
-                  <p className="mx-auto mt-4 max-w-xs text-sm uppercase tracking-[0.2em] text-[#f7f3ea]/70">Portrait asset ready</p>
-                </div>
+              <div className="relative h-full overflow-hidden rounded-[inherit] border border-white/10 bg-[#080a0d]">
+                <img
+                  src="/joshua-francis-iwule-portrait.png"
+                  alt="Portrait of Joshua Francis Iwule"
+                  loading="eager"
+                  className="h-full w-full object-cover object-[48%_32%]"
+                />
+                <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(8,10,13,0)_45%,rgba(8,10,13,.38)_100%)]" />
               </div>
             </div>
             <div className="mt-6 grid gap-3 sm:grid-cols-3">
