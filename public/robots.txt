@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://joshua-portfolio.jazzy-knoll-0468.chatgpt.site/sitemap.xml
