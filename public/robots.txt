@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://joshua-portfolio.jazzy-knoll-0468.chatgpt.site/sitemap.xml
+Sitemap: https://joshua-portfolio-jade.vercel.app/sitemap.xml
